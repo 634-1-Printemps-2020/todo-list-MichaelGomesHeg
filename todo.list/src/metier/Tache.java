@@ -10,7 +10,6 @@ public class Tache {
     StatusState status;
     ResolutionState reslution;
 
-
     public Tache(String createur, String descritpion, LocalDate executionPlanif, StatusState status, ResolutionState reslution) throws DateException {
         this.createur = createur;
         this.descritpion = descritpion;
